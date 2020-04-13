@@ -26,6 +26,8 @@ public class SomeBusinessImpl {
     for (int value:data) {
       sum+=value;
     }
+    
+    //Some dataservice.store()sum
     return sum;
   }
 }
